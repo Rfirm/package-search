@@ -1,0 +1,20 @@
+{
+  "name": "package-search",
+  "version": "0.0.0",
+  "authors": [
+    "chilijung"
+  ],
+  "description": "CRAN package search",
+  "keywords": [
+    "CRAN",
+    "package"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

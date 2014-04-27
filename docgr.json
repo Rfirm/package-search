@@ -1,0 +1,35 @@
+{
+	"layout": "./template/page.hbs",
+	"filename": "index.html",
+	"basic": {
+		"title": "CRAN package search",
+		"og_title": "CRAN package search",
+		"og_site_name": "CRAN package search",
+		"og_url": "rfirm.github.io/package-search",
+		"og_description": "Improving package searching in CRAN.",
+		// "og_image": "./image/header-logo-xs.png",
+		"charset": "UTF-8",
+		"author": "chilijung",
+		"viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+		"shortcut_icon": "",
+
+		"scripts": [
+		],
+
+		"stylesheets": [
+			"http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css",
+			"http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css",
+			"./styles/index.css"
+		],
+
+		"logo_img": "./image/header-logo-xs.png",
+
+		"github_link": "https://github.com/rfirm/package-search",
+
+		"google_analytics": {
+			"UA": "UA-49242122-1", 
+			"url": "datagarage.io"
+		}
+
+	}
+}
