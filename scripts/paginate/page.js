@@ -16,7 +16,7 @@ define([
                 dataType: 'json',
         
                 // the URL (or base URL) for the service
-                url: '../../data/pkg.json'
+                url: './data/pkg.json'
             },
 
             paginator_ui: {
