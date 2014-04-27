@@ -4,19 +4,18 @@ require.config({
 
     paths: {
 
-        'jquery'          : '/bower_components/jquery/dist/jquery.min',
-        'underscore'      : '/bower_components/underscore/underscore',
-        'backbone'        : '/bower_components/backbone/backbone',
-        'google_analytics': '/libs/google_analytics',
-        'backbone.marionette'     : '/bower_components/marionette/lib/backbone.marionette.min',
-        'bootstrap'       : '/bower_components/bootstrap/dist/js/bootstrap.min',
-        'backbone.marionette.handlebars' : '/bower_components/backbone.marionette.handlebars/backbone.marionette.handlebars.min',
-        'handlebars'        : '/bower_components/handlebars.js/dist/handlebars',
-        'text'              : '/bower_components/requirejs-text/text',
-        'hbs'               : '/bower_components/require-handlebars-plugin/hbs',
-        'json2'             : '/bower_components/require-handlebars-plugin/hbs/json2',
-        'i18nprecompile'    : '/bower_components/require-handlebars-plugin/hbs/i18nprecompile',
-        'paginator'         : '/bower_components/backbone.paginator/dist/backbone.paginator.min'
+        'jquery'          : './scripts/lib/jquery.min',
+        'underscore'      : './scripts/lib/underscore',
+        'backbone'        : './scripts/lib/backbone',
+        'backbone.marionette'     : './scripts/lib/backbone.marionette.min',
+        'bootstrap'       : './scripts/lib/bootstrap.min',
+        'backbone.marionette.handlebars' : './scripts/lib/backbone.marionette.handlebars.min',
+        'handlebars'        : './scripts/lib/handlebars',
+        'text'              : './scripts/lib/text',
+        'hbs'               : './scripts/lib/hbs',
+        'json2'             : './scripts/lib/json2',
+        'i18nprecompile'    : './scripts/lib/i18nprecompile',
+        'paginator'         : './scripts/lib/backbone.paginator.min'
         
    },
 
