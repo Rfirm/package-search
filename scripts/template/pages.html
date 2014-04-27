@@ -1,0 +1,43 @@
+<ul class="pagination pagination">
+	<% if (currentPage != 1) { %>
+		<li><a href="#" class="prev">&laquo;</a></li>
+	<% }else{ %>
+		<li class="disabled"><a href="#">&laquo;</a></li>
+	<% } %>
+
+	<% _.each (pageSet, function (p) { %>
+		<% if (currentPage == p) { %>
+			<li class="active"><a href="#" class="page"><%= p %></a></li>
+		<% } else { %>
+			<li><a href="#" class="page"><%= p %></a></li>
+		<% } %>
+	<% }); 
+	if(pageSet.length == 0) {
+	%>
+		<li class="active"><a href="#" class="page">1</a></li>
+	<%  } %>
+
+	<% if (lastPage != currentPage && lastPage != 0) { %>
+		<li><a href="#" class="next">&raquo;</a></li>
+	<% }else{ %>
+		<li class="disabled"><a href="#">&raquo;</a></li>
+	<% } %>
+</ul>
+
+<div>
+total packages: <%= totalRecords %>
+</div>
+
+<div class="form-inline">
+
+<select id="filterByOption" class="form-control " style="width: 150px">
+	<option value="package">Package</option>
+	<option value="title">Title</option>
+</select>
+<span class="cell sort">
+	<input id="filterString" type="text" class="form-control " style="width: 150px;" placeholder="Search bar">
+	<a href="#" class="filter btn btn-default" >Search</a>
+	<a href="#" class="clear btn btn-default" >Clear</a>
+</span>
+
+</div>

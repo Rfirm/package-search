@@ -1,0 +1,67 @@
+
+@font-face {
+  font-family: "Lato-Light";
+  src: url(./Lato-Light.ttf);
+}
+/***color***/
+#header {
+  margin-top: 0;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  font-weight: bold;
+  font-family: "Lato-Light";
+  background-color: #fff;
+}
+#header .logo img {
+  width: 150px;
+}
+#navigation .wrapper {
+  padding: 20px 65px;
+  margin: 0 0 3 0;
+}
+#navigation ul {
+  position: absolute;
+  right: 4em;
+  top: 1.3em;
+  vertical-align: middle;
+  font-size: 1.5em;
+  display: inline;
+}
+#navigation ul li {
+  list-style-type: none;
+  display: inline;
+  margin-left: 1em;
+}
+#navigation ul li span {
+  padding: 0 5px;
+}
+#navigation ul li a {
+  color: #f80041;
+  display: inline-block;
+}
+#navigation ul li a:hover {
+  border-bottom: #f80041 3px solid;
+  text-decoration: none;
+}
+
+#page_area {
+  margin-bottom: 10px;
+}
+
+#pkg-list {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+footer {
+  margin-top: 150px;
+  border-bottom: 4px solid #f80041;
+}
+footer .copyright {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 17px;
+  font-family: "Lato-Light";
+}
+

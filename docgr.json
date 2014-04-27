@@ -7,7 +7,6 @@
 		"og_site_name": "CRAN package search",
 		"og_url": "rfirm.github.io/package-search",
 		"og_description": "Improving package searching in CRAN.",
-		// "og_image": "./image/header-logo-xs.png",
 		"charset": "UTF-8",
 		"author": "chilijung",
 		"viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",

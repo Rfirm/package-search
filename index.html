@@ -1,24 +1,25 @@
-<!DOCTYPE html>
 <html>
   <title>
-    {{title}}
+    CRAN package search
   </title>
   <head>
-    <meta property="og:title" content="{{og_title}}">
-    <meta property="og:site_name" content="{{og_site_name}}">
-    <meta property="og:url" content="{{og_url}}">
-    <meta property="og:description" content="{{og_description}}">
+    <meta property="og:title" content="CRAN package search">
+    <meta property="og:site_name" content="CRAN package search">
+    <meta property="og:url" content="rfirm.github.io/package-search">
+    <meta property="og:description" content="Improving package searching in CRAN.">
     <meta property="og:image" content="">
-    <meta name="author" content="{{og_author}}">
-    <meta charset="{{charset}}">
-    <meta name="viewport" content="{{viewport}}">
-    <link rel="shortcut icon" href="{{shortcut_icon}}">
-    {{#each stylesheets}}
-    <link rel="stylesheet" href="{{this}}">
-    {{/each}}
-    {{#each scripts}}
-    <script src="{{this}}"></script>
-    {{/each}}
+    <meta name="author" content="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="">
+    
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    
+    <link rel="stylesheet" href="./styles/index.css">
+    
+    
   </head>
   <body>
     <div class="row">
@@ -28,7 +29,7 @@
             <nav id="navigation" role="navigation">
               <div class="wrapper"><a href="./" class="logo"><h2>CRAN package search</h2></a>
                 <ul>
-                  <li><a href="{{github_link}}" target="_blank">Github</a></li>
+                  <li><a href="https://github.com/rfirm/package-search" target="_blank">Github</a></li>
                 </ul>
               </div>
             </nav>
@@ -51,7 +52,7 @@
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
       
-      ga('create', '{{google_analytics.UA}}', '{{google_analytics.url}}');
+      ga('create', 'UA-49242122-1', 'datagarage.io');
       ga('send', 'pageview');
     </script>
     <script data-main="scripts/app.js" src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.11/require.min.js"></script>
